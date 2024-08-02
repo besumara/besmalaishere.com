@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("attachements/green.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+  font-family: "Lateef", serif
+}
+
+.upperpage {
+    padding: 50px 20px 25px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        2px 2px 0 black, 
+        -2px -2px 0 black, 
+        -2px 2px 0 black, 
+        2px -2px 0 black;
+}
+
+.intro {
+    margin: 20px auto;
+    max-width: 90%;
+    font-weight: 200;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+   text-shadow: -2px -3px 5px rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.296);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.downpage {
+    padding-top: 20px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 10px;
+}
+
+.icon-box:hover {
+    transform: scale(1.4) rotate(15deg);
+}
+
+.icon-box img {
+    width: 70px;
+    height: 50px;
+}
+
+.messages, .insta {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.icon-title {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nameandletter, .motivation {
+ 
+    background-color: rgba(0, 0, 0, 0.457);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.whoiam {
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.message {
+       color: rgb(255, 255, 255);
+   text-shadow: -2px -3px 5px rgba(0, 0, 0, 0.519);
+    text-align: center;
+    margin: 10px;
+    font-size: large;
+}
+
+.helloimg {
+    width: 100%;
+    max-width: 230px;
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    border: 1px solid gray;
+}
+
+.study {
+       color: rgb(255, 255, 255);
+   text-shadow: -2px -3px 5px rgba(0, 0, 0, 0.519);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 30px;
+}
+
+.quote {
+        color: rgb(255, 255, 255);
+   text-shadow: -2px -3px 5px rgba(0, 0, 0, 0.519);
+  
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.keep_going {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+}
+
+.buttonpage {
+    text-align: center; 
+   
+   /* margin-top: 30px; */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.486);
+ /*   border-radius: 10px;*/
+  /*  border: 1px solid rgb(85, 58, 58);*/
+}
+
+.footer {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 30px;
+}
+
+.footer h5 {
+    margin: 0;
+}
