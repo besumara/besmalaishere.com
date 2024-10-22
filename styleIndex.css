@@ -9,7 +9,7 @@ html, body {
 
 body {
     background-color: #D6c9B4;
-    font-family: "Lateef", serif
+    font-family: "Lateef", serif;
 }
 
 .upperpage {
@@ -151,7 +151,7 @@ body {
    
    /* margin-top: 30px; */
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.486);
+    background-color: rgba(211, 218, 220, 0.457);
  /*   border-radius: 10px;*/
   /*  border: 1px solid rgb(85, 58, 58);*/
 }
