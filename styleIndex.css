@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url("attachements/green.png");
+    background-color: #D6c9B4;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,16 +24,7 @@ body {
 }
 
 .title {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 70px;
-    font-weight: bolder;
-    color: rgb(255, 255, 255);
-    text-shadow: 
-        2px 2px 0 black, 
-        -2px -2px 0 black, 
-        -2px 2px 0 black, 
-        2px -2px 0 black;
+  width: 300 px;
 }
 
 .intro {
