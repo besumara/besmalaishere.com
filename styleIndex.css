@@ -9,13 +9,7 @@ html, body {
 
 body {
     background-color: #D6c9B4;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    margin: 0;
-  font-family: "Lateef", serif
+    font-family: "Lateef", serif
 }
 
 .upperpage {
