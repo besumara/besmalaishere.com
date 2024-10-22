@@ -18,7 +18,7 @@ body {
 }
 
 .title {
-  width: 50vw;
+  width: 70vw;
 }
 
 .intro {
@@ -92,7 +92,7 @@ body {
 
 .nameandletter, .motivation {
  
-    background-color: rgba(0, 0, 0, 0.457);
+    background-color: rgba(211, 218, 220, 0.457);
     padding: 20px;
     border-radius: 10px;
     max-width: 80%;
